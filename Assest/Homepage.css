@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+
+.head-main {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../Images/Group\ 55.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.header-logo {
+  width: auto;
+  height: 65px;
+  margin-left: 50px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.nav-list > li {
+  list-style-type: none;
+  margin: 10px 25px;
+  font-size: 20px;
+  font-weight: 500 !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-list > li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.getAppBtn {
+  color: #2b2b22;
+  font-size: 20px;
+  background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%),
+    linear-gradient(90deg, #9747ff 1.51%, #1e62a0 101.72%);
+
+  border-radius: 20px;
+  padding: 5px 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500 !important;
+}
+
+.nav-list > li a:hover {
+  color: #ffd532;
+}
+
+/* Carosel */
+.carosel-slide {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 4%;
+}
+
+#carousel-img {
+  width: 879px !important;
+  height: 420px !important;
+}
+
+.banner-slide {
+  position: absolute;
+  top: 195px;
+  left: 343px;
+}
+
+/* About us */
+
+.about-us {
+  width: 100%;
+  height: 2550px;
+  background-image: url("../Images/dark-vip-cinema-studio-still-life\ 1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.linear-gradient {
+  background-image: url("../Images/Rectangle\ 64.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 2550px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-about {
+  margin-top: 6%;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  height: 455px;
+}
+
+.about-line {
+  margin: 30px 0;
+}
+
+.category {
+  width: 100%;
+  /* height: 650px !important; */
+  background-color: #000000 !important;
+}
+
+.awards-category {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 3%;
+  /* height: 85% !important; */
+}
+
+.awards-info {
+  color: #ffffff;
+}
+
+.awards img {
+  width: 100% !important;
+  height: 338px !important;
+}
+
+.awards-heading {
+  font-size: 36px;
+  margin: 15px 0 0 15px !important;
+  /* height: 15px !important; */
+}
+
+/* Submission Guidline */
+
+.submission-heading {
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+}
+
+.submission-guide {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.proto-img1,
+.proto-img2,
+.proto-img3,
+.proto-img4 {
+  width: auto;
+  height: 600px;
+}
+
+.rule1,
+.rule2,
+.rule3,
+.rule4 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin: 15px;
+}
+
+.num1,
+.num2,
+.num3,
+.num4 {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 3px solid #ffd532;
+  margin-right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffd532;
+  font-size: 32px;
+  background-color: transparent;
+}
+
+.step1,
+.step2,
+.step3,
+.step4 {
+  width: 500px;
+  height: 135px;
+  box-sizing: border-box;
+}
+
+.step1 h4 {
+  margin: 10px 0;
+}
+
+.step2 h4 {
+  margin: 10px 0;
+}
+
+.step3 h4 {
+  margin: 10px 0;
+}
+
+.step4 h4 {
+  margin: 10px 0;
+}
+
+.submission-rules > div:not(.active) {
+  opacity: 0.2;
+}
+
+/* Style for active button */
+.active button {
+  background-color: transparent;
+  color: #ffd532;
+}
+
+/* Add hover effect to buttons */
+button:hover {
+  cursor: pointer;
+}
+
+.protoype-images > div {
+  display: none;
+}
+
+.protoype-images .active1 {
+  display: block;
+}
+
+/* Get App */
+
+.appmodel {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(#272020, #f7971e, #272020, #ffd532, #272020);
+  height: 80vh;
+}
+
+.model1 {
+  width: 500px !important;
+  height: 422px !important;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: #000000;
+  font-family: "Poppins", sans-serif;
+  padding: 25px;
+}
+
+.model1 h1 {
+  color: #ffd532;
+  font-size: 40px !important;
+  font-weight: 400 !important;
+}
+
+.model1 p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.model2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iphone14 {
+  width: 400px;
+  height: 400px;
+}
+
+.app-model {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px !important;
+  height: 150px !important;
+}
+
+.iphone13 {
+  width: 200px !important;
+  height: 200px !important;
+}
+
+/* Footer */
+.footer-bg {
+  background-image: url("./media/footer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.copyrights {
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px !important ;
+  padding-bottom: 25px;
+}
+
+.map-location {
+  display: flex;
+  align-items: center;
+  /* float: right; */
+  position: relative;
+  right: 120px;
+}
+.address {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  margin-left: 15px;
+  width: 250px;
+}
+.address p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.left-footer {
+  width: 100%;
+  height: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.aboutuscontent {
+  width: 40%;
+}
+.aboutuscontent p {
+  margin-top: 20px;
+}
+.aboutlist {
+  margin-left: 25px;
+}
+.aboutlist ul li {
+  list-style: none;
+  line-height: 40px;
+}
+.aboutlist ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}

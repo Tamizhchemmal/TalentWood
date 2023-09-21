@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomePage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="./Assest/Homepage.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="head-main">
+        <div class="header-menu">
+          <div class="logo">
+            <img src="./Assest/media/logo.png" alt="Logo" class="header-logo" />
+          </div>
+          <div class="nav-bar">
+            <ul class="nav-list">
+              <li><a href="./Homepage.html">Home</a></li>
+              <li><a href="./prize.html">Prizes & Categories</a></li>
+              <li><a href="./rules.html">Rules</a></li>
+              <li><a href="./contactus.html">Contact Us</a></li>
+              <li><button class="btn getAppBtn">GET APP</button></li>
+            </ul>
+          </div>
+        </div>
+        <div class="carosel-slide">
+          <div
+            id="carouselExampleFade"
+            class="carousel banner-slide carousel-fade"
+            data-bs-ride="carousel"
+            data-bs-pause="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img
+                  src="./Images/Clapboard stock photo_ Image of video, clapperboard, filmroll - 36037666.jpg"
+                  class="d-block w-100"
+                  id="carousel-img"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="./Images/clapperboard-near-popcorn-bucket-3d-glasses.jpg"
+                  class="d-block w-100"
+                  id="carousel-img"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="./Images/How to Sell Your Screenplay (for Absolute Beginners) _ Jane Friedman.jpg"
+                  class="d-block w-100"
+                  id="carousel-img"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-us">
+        <div class="linear-gradient">
+          <div class="main-about">
+            <p>
+              Talentwood's aims to foster creativity and innovation in
+              filmmaking
+              <br />
+              by encouraging filmakers to push their creative boundaries
+            </p>
+            <div class="about-line">
+              <img src="./Images/Line.png" alt="line" />
+              <img src="./Images/Star.png" alt="star" />
+              <img src="./Images/Line.png" alt="line" />
+            </div>
+            <p>
+              In addition, we recognize the importance of providing filmmakers
+              with the
+              <br />
+              means to bring their visions to life. That's why we're proud to
+              support
+              <br />
+              filmmakers in the production process through crowd funding
+              initiatives.
+              <br />
+              By combining recognition and financial support, Talentwood aims to
+              empower
+              <br />
+              filmmakers to continue creating exceptional cinematic experiences
+              that
+              <br />
+              resonate with audiences worldwide.
+            </p>
+          </div>
+          <div class="category">
+            <img
+              src="./Images/golden_line.png"
+              alt="golden line"
+              width="100%"
+            />
+            <div class="awards-heading">
+              <div>Awards Categories</div>
+              <img
+                src="./Images/golden_line.png"
+                alt="golden line"
+                width="15%"
+              />
+            </div>
+            <div class="awards-category">
+              <div class="info">
+                <div class="carosel-slide">
+                  <div
+                    id="carouselExampleSlidesOnly"
+                    class="carousel categorySlide"
+                    data-bs-ride="carousel"
+                    data-bs-pause="false"
+                  >
+                    <div class="carousel-inner">
+                      <div
+                        class="carousel-item awards-info active"
+                        data-bs-interval="3000"
+                        data-bs-touch="false"
+                      >
+                        <h2 class="background-image">Best Actor</h2>
+                      </div>
+
+                      <div
+                        class="carousel-item awards-info"
+                        data-bs-interval="3000"
+                        data-bs-touch="false"
+                      >
+                        <h2 class="background-image">Best Director</h2>
+                      </div>
+
+                      <div
+                        class="carousel-item awards-info"
+                        data-bs-interval="3000"
+                        data-bs-touch="false"
+                      >
+                        <h2 class="background-image">
+                          Best Supporting
+                          <br />
+                          Character
+                        </h2>
+                      </div>
+
+                      <div
+                        class="carousel-item awards-info"
+                        data-bs-interval="3000"
+                        data-bs-touch="false"
+                      >
+                        <h2 class="background-image">Best Actress</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="info-image">
+                <div class="carosel-slide">
+                  <div
+                    id="carouselExampleSlidesOnly"
+                    class="carousel categorySlide"
+                    data-bs-ride="carousel"
+                    data-bs-pause="false"
+                  >
+                    <div class="carousel-inner">
+                      <div
+                        class="carousel-item awards active"
+                        data-bs-interval="3000"
+                        data-bs-touch="false"
+                      >
+                        <img
+                          src="./Images/male-business-executive-receiving-award.jpg"
+                          class="background-image d-block w-100"
+                          alt="Best Actor"
+                        />
+                      </div>
+                      <div
+                        class="carousel-item awards"
+                        data-bs-interval="3000"
+                        data-bs-touch="false"
+                      >
+                        <img
+                          src="./Images/man-filming-with-professional-camera.jpg"
+                          class="background-image d-block w-100"
+                          alt="Best Director"
+                        />
+                      </div>
+                      <div
+                        class="carousel-item awards"
+                        data-bs-interval="3000"
+                        data-bs-touch="false"
+                      >
+                        <img
+                          src="./Images/Clapboard stock photo_ Image of video, clapperboard, filmroll - 36037666.jpg"
+                          class="background-image d-block w-100"
+                          alt="Best Supporting Character"
+                        />
+                      </div>
+                      <div
+                        class="carousel-item awards"
+                        data-bs-interval="3000"
+                        data-bs-touch="false"
+                      >
+                        <img
+                          src="./Images/smiling-businessteam-holding-their-thumbs-up.jpg"
+                          class="background-image d-block w-100"
+                          alt="Best Actress"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="./Images/golden_line.png"
+              alt="golden line"
+              width="100%"
+            />
+          </div>
+          <div class="submission">
+            <div class="submission-heading">Submission Guidline</div>
+            <div class="submission-guide">
+              <div class="protoype-images">
+                <div class="protoype1 active1">
+                  <img
+                    src="./Images/guide1.png"
+                    alt="Guide1"
+                    class="proto-img1"
+                  />
+                </div>
+                <div class="protoype2">
+                  <img
+                    src="./Images/Guide2.png"
+                    alt="Guide2"
+                    class="proto-img2"
+                  />
+                </div>
+                <div class="protoype3">
+                  <img
+                    src="./Images/Guide3.png"
+                    alt="Guide3"
+                    class="proto-img3"
+                  />
+                </div>
+                <div class="protoype4">
+                  <img
+                    src="./Images/Guide4.png"
+                    alt="Guide4"
+                    class="proto-img4"
+                  />
+                </div>
+              </div>
+              <div class="submission-rules">
+                <div class="rule1 active">
+                  <button class="num1" id="transitionButton">1</button>
+                  <div class="step1" id="transitionElement">
+                    <h4>Originality Matters:</h4>
+                    <p>
+                      We celebrate originality and creativity. All submissions
+                      must be entirely
+                      <br />
+                      your own work. Plagiarism or the use of copyrighted
+                      material without
+                      <br />
+                      permission is not allowed.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="rule2">
+                  <button class="num2" id="transitionButton">2</button>
+                  <div class="step2" id="transitionElement">
+                    <h4>Film Length:</h4>
+                    <p>
+                      To keep the competition engaging and accessible, short
+                      films should
+                      <br />
+                      not exceed 20 minutes in length. Concise storytelling
+                      often leaves a
+                      <br />
+                      lasting impact.
+                      <br />
+                    </p>
+                  </div>
+                </div>
+                <div class="rule3">
+                  <button class="num3" id="transitionButton">3</button>
+                  <div class="step3" id="transitionElement">
+                    <h4>Genere Freedom:</h4>
+                    <p>
+                      We welcome short films of all genres – drama, comedy,
+                      animation,
+                      <br />
+                      documentary, and more. Let your imagination run wild and
+                      choose the
+                      <br />
+                      genre that best fits your vision.
+                    </p>
+                  </div>
+                </div>
+                <div class="rule4">
+                  <button class="num4" id="transitionButton">4</button>
+                  <div class="step4" id="transitionElement">
+                    <h4>Rights and Permissions:</h4>
+                    <p>
+                      By submitting your film, you grant us the right to
+                      showcase it on our
+                      <br />
+                      platform and during events. Ensure you have all necessary
+                      permissions
+                      <br />
+                      for any copyrighted material used in your film.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="appmodel">
+            <div class="model1">
+              <h1>Get Our App</h1>
+              <p>
+                Stay tuned for exciting workshops,<br />
+                masterclasses, and film screenings. Expand <br />
+                your knowledge and network within the <br />
+                filmmaking community.
+              </p>
+              <div class="app-model">
+                <div class="getApp">
+                  <button class="btn getAppBtn">GET APP</button>
+                </div>
+                <div class="appScaleModel">
+                  <img
+                    src="./Images/iPhone 13.png"
+                    alt="iphone13"
+                    class="iphone13"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="model2">
+              <img
+                src="./Images/iPhone 14.png"
+                alt="iphone14"
+                class="iphone14"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bg">
+        <div class="container">
+          <div class="left-footer">
+            <div class="about">
+              <div class="aboutuscontent">
+                <h3>Talentwood</h3>
+                <p>
+                  Talentwood's competition and awards program stands as a
+                  remarkable opportunity to celebrate the art of filmmaking
+                  while fostering the growth of the film industry. Beyond
+                  recognition and accolades, Talentwood actively encourages
+                  filmmakers to pursue their passion and share their compelling
+                  stories through film.
+                </p>
+              </div>
+              <div class="aboutlist">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Prizes & Categories</a></li>
+                  <li><a href="#">Rules</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="map-location">
+              <img
+                src="./Assest/media/map.png"
+                width="auto"
+                height="auto"
+                id="mapIcon"
+              />
+              <div class="address">
+                <h2>Talentwood</h2>
+                <p>
+                  No.24 A, 3rd Main Road,<br />
+                  KK Nagar, Sreenivasapuram,<br />
+                  Guduvancherry 603 202.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h4 class="copyrights">
+          &copy; Copyright 2023 - Stage A Dream Pvt.Ltd. All right reserved
+        </h4>
+      </div>
+    </div>
+
+    <script src="./Script.js"></script>
+    <script src="./scriptrule.js"></script>
+  </body>
+</html>

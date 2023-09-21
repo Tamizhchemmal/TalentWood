@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+.main-one {
+  height: 100vh;
+}
+
+.background {
+  background-image: url("./media/cinema-with-popcorn-box\ 2.jpg");
+  height: 3652px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.back-gradient {
+  width: 100%;
+  height: 3652px;
+  background-image: url("./media/Rectangle\ 79.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* NavBar */
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  /* height: 75px; */
+  align-items: center;
+  padding-top: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-list > li a:hover {
+  color: #ffd532;
+}
+
+.getAppBtn {
+  color: #2b2b22;
+  font-size: 20px;
+  background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%),
+    linear-gradient(90deg, #9747ff 1.51%, #1e62a0 101.72%);
+
+  border-radius: 20px;
+  padding: 5px 35px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500 !important;
+}
+
+.header-logo {
+  /* margin: 15px; */
+  margin-left: 50px;
+  width: auto;
+  height: 65px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.nav-bar {
+  margin: 15px;
+}
+
+.nav-list > li {
+  list-style-type: none;
+  margin: 10px 20px;
+  font-size: 20px;
+}
+
+.nav-list > li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* Section 1 */
+/* .section1 h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 74px;
+  color: #ffd532;
+}
+.section1 h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 44px;
+  margin-top: 15px;
+  color: #ffd532;
+} */
+.section1 {
+  margin-left: 8%;
+  margin-top: 10%;
+}
+.section1 h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  color: #ffd532;
+  margin-top: 20px;
+}
+
+.section1 hr {
+  width: 400px;
+  color: #ffd532;
+  border: 4px solid #ffd532;
+}
+.section2 {
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 2%;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  left: -100px;
+}
+
+.section2 h3 {
+  color: white;
+  font-size: 35px;
+}
+.section2 h4 {
+  margin-top: 5%;
+  color: #ffffff;
+  line-height: 1.5;
+}
+.section2 ul li {
+  color: #ffffff;
+  font-size: 25px;
+  margin-top: 40px;
+}
+
+/* main two */
+.three ol li {
+  color: white;
+  font-size: 25px;
+}
+.three ol {
+  margin-top: 2%;
+  line-height: 55px;
+  margin-left: 15%;
+}
+.three h3 {
+  line-height: 55px;
+}
+
+.sidebar {
+  display: flex;
+  margin-top: 4%;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sidebar-text {
+  color: #ffffff;
+  width: 50%;
+}
+
+.sidebar-text h4 {
+  margin-top: 4%;
+  line-height: 1.5;
+}
+.sidebar-text a {
+  text-decoration: none;
+  color: #ffd532 !important;
+}
+.sidebar-text li {
+  font-size: 25px;
+  margin-top: 4%;
+}
+
+/* footer Design */
+.footer-bg {
+  background-image: url("./media/footer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+/* Animation */
+#firstContent {
+  position: relative;
+  left: -800px;
+}
+#firstGif {
+  position: relative;
+  left: -800px;
+}
+#firstRow {
+  position: relative;
+  right: -1000px;
+}
+#secondRow {
+  position: relative;
+  left: -950px;
+}
+#secondGif {
+  position: relative;
+  right: -700px;
+}
+#thirdGif {
+  position: relative;
+  left: -800px;
+}
+#thirdRow {
+  position: relative;
+  right: -1000px;
+}
+
+/* footer */
+.map-location {
+  display: flex;
+  align-items: center;
+  /* float: right; */
+  position: relative;
+  right: 120px;
+}
+.address {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  margin-left: 15px;
+  width: 250px;
+}
+.address p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.left-footer {
+  width: 100%;
+  height: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.aboutuscontent {
+  width: 40%;
+}
+.aboutuscontent p {
+  margin-top: 20px;
+}
+.aboutlist {
+  margin-left: 25px;
+}
+.aboutlist ul li {
+  list-style: none;
+  line-height: 40px;
+}
+.aboutlist ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
